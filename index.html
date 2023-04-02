@@ -1,0 +1,242 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css"> 
+        <script src="https://kit.fontawesome.com/bdcc87b893.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo4.png" class="logo">
+                <ul id = "sidemenu">
+                    <li><a href="#header">Home</a></li> 
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fa-regular fa-bars" onclick="openmenu"></i> -->
+            </nav>
+            <div class="header-text">
+                <p>FLUTTER DEVELOPER...</p>
+                <h1>Hey there, I'm <span>Pranadeep</span>  <br>Likhithapudi From IIITV-ICD.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------about-------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a Pre-Final student at IIITV. I have experience in working with various programming languages such as Dart,
+                        Java, and Kotlin, and are proficient in using development
+                        tools such as Android Studio, Visual Studio Code, and Xcode. Having
+                        a deep knowledge of Flutter widgets, layouts, and animations, and 
+                        can create responsive and visually appealing user interfaces.
+                    </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>FLUTTER DEVELOPMENT</span><br>Designing Web/App Applications.</li>
+                                    <li><span>WEB DEVELOPMENT</span><br>Building Front-end Console Applications.</li>
+                                    <li><span>PROGRAMMING LANGUAGES</span><br>DART, JAVA, KOTLIN, JAVASCRIPT, HTML, CSS, <br> HTML, PYTHON, C, C++.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>RESEARCH IN AUTOMATIC MODULATION CLASSIFICATION</span><br>Instructor: Dr.Varum Kumar.</li>
+                                    <!-- <li><span>App development</span><br>Building Android/iOS apps</li>
+                                    <li><span>Penetration Testing</span><br>Web application testing with metasploit</li> -->
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, VADODARA. </span><br> CSE -Computer Science and Engineering.<br>Pre-Final Year Student.</li>
+                                    <li><span>SASI JUNIOR COLLEGE</span><br>High School Diploma <br> GPA : 10.</li>
+                                    <li><span>SASI EDUCATION INSTITUTE</span><br>Secondary Education <br> GPA : 10.</li>
+                                </ul>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------------------------services------------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-globe"></i>
+                <h2>Flutter Development</h2>
+                <p> Using flutter as an open-source framework by Google for building beautiful,
+                     natively compiled, multi-platform applications from a single codebase. 
+                </p>
+                <a href="https://docs.flutter.dev/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Web Development</h2>
+                <p>Creating webpage layouts, writing code, editing website content, and making adjustments based on client feedback.</p>
+                <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjfzLHgp4j-AhUEDisKHcf2C7MYABABGgJzZg&sig=AOD64_2dCo1_iX5NIVIN0oFKmBqCSIZ6QQ&q&adurl&ved=2ahUKEwiW96rgp4j-AhVkg2MGHe6uD7cQ0Qx6BAgHEAE">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-key"></i>
+                <h2>Data Analysis</h2>
+                <p>I will python programming language,libraries and  for graphical representation of information and data.</p>
+                <a href="https://readthedocs.org/projects/datavis/downloads/pdf/latest/">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------portfolio------------------ -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Course Management System (Flutter Application)</h3>
+                    <p>• This Application involves the enrollment of a person, It’s an OOPS
+                        Project <br>
+                        • This App provides an environment where the students, teachers and
+                        seniors interact each other.</p>
+                    <a href="https://github.com/PranadeepGit"><i class="fa-duotone fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>Reading Club - Open Library</h3>
+                    <p>• Application system to read and give reviews about categories like Education,
+                        Entertainment etc.</p>
+                    <a href="https://github.com/PranadeepGit"><i class="fa-duotone fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Movie Suggester (Machine Learning console) </h3>
+                    <p>• This console will display the top five suggested movies to the user according to his preferences. </p>
+                    <a href="https://github.com/PranadeepGit"><i class="fa-duotone fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/PranadeepGit" class="btn">See more...</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pranadeeplikhithapudi@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>9110389664</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/Likhithapudi-Pranadeep/pfbid02MCd4ngiU5AdThTidAyaxH4XddPebu1AfeQ9rtUZJidGBWT1Qy99dU6cE4zuy22LDl/"><i class="fa-brands fa-facebook"></i></a>
+                    <!-- <a href=""><i class="fa-brands fa-twitter-square"></i></a> -->
+                    <a href="https://www.instagram.com/pranadeep_1176/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pranadeep-l-990751266/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Pranadeep.</p>
+    </div>
+</div> 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwqXFDQ60dc3KXEGi-37x-8EeKTEQpaj2QSEA8lvm6oJRLf-wfVT3ek41he0q-gEfN3/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+    </html>
